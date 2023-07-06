@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen con Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/emma2.jpg" alt="Logo" height="30" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Formulario.html">Formulario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cards.html">Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Modal.html">Modal</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Carrusel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicadores -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Imágenes -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="imagenes/8712038.jpg"
+            alt="Imagen 1"
+            class="d-block w-100"
+            height="600"
+          />
+          <div class="overlay">
+            <a
+              href="https://github.com/JeanRimuru3455688/ExamenDiseJean.git"
+              class="btn btn-primary"
+              style="margin-left: 13%"
+              >Botón enlazado 1</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/8712049.jpg"
+            alt="Imagen 2"
+            class="d-block w-100"
+            height="600"
+          />
+          <div class="overlay">
+            <a
+              href="https://getbootstrap.com"
+              class="btn btn-primary"
+              style="margin-left: 13%"
+              >Botón enlazado 2</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/8712071.jpg"
+            alt="Imagen 3"
+            class="d-block w-100"
+            height="600"
+          />
+          <div class="overlay">
+            <a
+              href="https://github.com/JeanRimuru3455688/ExamenDiseJean.git"
+              class="btn btn-primary"
+              style="margin-left: 13%"
+              >Botón enlazado 3</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagenes/8712081.jpg"
+            alt="Imagen 4"
+            class="d-block w-100"
+            height="600"
+          />
+          <div class="overlay">
+            <a
+              href="https://getbootstrap.com"
+              class="btn btn-primary"
+              style="margin-left: 13%"
+              >Botón enlazado 4</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <a
+        class="carousel-control-prev"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+
+    <hr />
+    <div>
+      <h3>
+        ENTREGAR UN PROYECTO PERSONAL QUE CUMPLA CON TODAS LAS CARACTERISTICAS :
+        ENTREGABLE ACEPTACION FOOTER Y HEADER -RESPONSIVE EN 3 PANTALLAS
+        DIFERENTES -LINKS ENTRELAZADOS - MENU HAMBURGUESA FUNCIONAL - CONTENER
+        LOGO - RESPETAR EL CONCEPTO CAROUSEL - MAS DE 4 IMAGENES - MOVIMIENTO
+        AUTOMATICO - POSEER UN OVERLAY COMPLETO - BOTON EN EL OVERLAY DEBE ESTAR
+        LINKEADO - RESPETAR EL CONCEPTO RESPONSIVE EL OVERLAY - ADAPTABLE A
+        CUALQUIER PANTALLA EL CAROUSEL CARDS - MINIMO 6 CARDS DIFERENTES - USAR
+        LA CLASIFICACIÓN EN CARDS - RESPETAR EL CONCEPTO - DEBEN SER ADAPTABLES
+        A 3 PANTALLAS - DEBEN ESTAR LINKEADAS PROYECTO - MINIMO 4 PANTALLAS ( NO
+        CUENTA LOGIN NI REGISTRO) - TODAS LAS PANTALLAS ENTRELAZADAS Y LA OPCION
+        DE REGRESAR A MAIN - LINKEADO Y ACTUALIZADO EN GITHUB Formulario -MINIMO
+        3 ENTRADAS DE TEXTO (1 TIPO PARRAFO) -POSEE BOTON EN EL FORMULARIO
+        -POSEE ALERTA EN EL FORMULARIO MODAL -MINIMO 3 MODALES DIFERENTES POSEE
+        BOTON INCLUYE ALGUN TIMPO DE ALERTA RESPETA EL CONCEPTO
+      </h3>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <p>Derechos de autor &copy; 2023 | JeanVera.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
